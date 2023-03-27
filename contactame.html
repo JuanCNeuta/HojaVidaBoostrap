@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--cabecera-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+  <title>Hoja Vida Boostrap</title>
+  <link rel="icon" href="images/file-earmark-person.svg">
+</head>
+
+<body>
+  <header class="container-fluid bg-primary d-flex justify-content-center row align-items-start">
+    <div>
+      <h1 class="text-center display-3 font-weight-bold text-light">Hoja de vida</h1>
+      <hr>
+    </div>
+
+    <div class="accordion-header m-5 col">
+      <img src="images/FotoHoja.png" class="img-thumbnail rounded-bottom">
+    </div>
+    <div class="col-md-8 col">
+      <p class="display-2 font-weight-bold text-light">Juan Carlos Neuta Montenegro</p>
+      <p class="display-6 font-weight-bold text-light">24 años, Tecnico en Sistemas, Ingeniero de Sistemas coming
+        soon...</p>
+    </div>
+    <div class=" m-4 col">
+      <img src="images/Logo_de_la_Universidad_del_Cauca.svg">
+    </div>
+  </header>
+
+  <!--Navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-bottom border-primary">
+    <div class="container-md">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-5" href="index.html">Datos Personales</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active fs-5" href="informacionAcademica.html">Información académica </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active fs-5" href="informacionLaboral.html">Información Laboral </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active fs-5" href="referencias.html">Referencias</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active fs-5" href="contactame.html">Contáctame</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+  <br>
+
+  <!--CONTACTAME-->
+  <!--Contenido-->
+  <div class="container mb-3  d-flex justify-content-center align-items-center">
+    <div class="card ">
+      <div class="card-body ">
+        <div class="form h-100">
+          <h3 class="bg-primary text-light" style="text-align: center;">Contáctame</h3>
+          <form class="mb-5" method="post" id="contactForm" name="contactForm">
+            <div class="row">
+              <div class="col-md-6 form-group mb-3">
+                <label for="" class="col-form-label">Nombre *</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+              </div>
+              <div class="col-md-6 form-group mb-3">
+                <label for="" class="col-form-label">Email *</label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="Tu email">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 form-group mb-3">
+                <label for="message" class="col-form-label">Mensaje *</label>
+                <textarea class="form-control" name="message" id="message" cols="30" rows="4"
+                  placeholder="Escribe tu mensaje"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <input type="button" value="Enviar Mensaje" style="color: black; font-weight: bold;"
+                  class="btn btn-primary rounded-0 py-2 px-4">
+                <span class="submitting"></span>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!--footer-->
+  <footer class="bg-primary d-flex align-items justify-content-center flex-wrap" style="min-height: 100px;">
+    <p class="fs-5 px-3 pt-3" style="color: #f3f3f3;text-align: center;">Juan Carlos Neuta. &copy; Todos Los Derechos
+      Reservados 2023</p>
+    <div>
+      <a href="https://www.facebook.com/Ian.Neuta.52"><i class="bi bi-facebook "
+          style="font-size: 26px; padding: 0 8px;color: #f3f3f3;"></i></a>
+      <a href="#"><i class="bi bi-twitter" style="font-size: 26px; padding: 0 8px;color: #f3f3f3;"></i></a>
+      <a href="https://www.instagram.com/juank.nm/"><i class="bi bi-instagram"
+          style="font-size: 26px; padding: 0 8px;color: #f3f3f3;"></i></a>
+    </div>
+  </footer>
+
+  <!--SCRIPT DE BOOSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

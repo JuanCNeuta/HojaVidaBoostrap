@@ -86,11 +86,17 @@
   }
 }
 
+@media screen and (min-width: 767) {
+  .cabecera{
+      display:inline;
+  }
+}
+
 
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: Oswald;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -1112,10 +1118,6 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
-  }
-  .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
   }
   .col-md-5 {
     flex: 0 0 auto;

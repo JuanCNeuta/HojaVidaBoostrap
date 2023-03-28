@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<!--cabecera-->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,29 +8,30 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 
   <title>Hoja Vida Boostrap</title>
   <link rel="icon" href="images/file-earmark-person.svg">
 </head>
 
 <body>
-  <header class="container-fluid bg-primary d-flex justify-content-center row align-items-start">
+  <!--cabecera-->
+  <header class="cabecera container-fluid bg-primary d-flex justify-content-center row align-items-start">
     <div>
       <h1 class="text-center display-3 font-weight-bold text-light">Hoja de vida</h1>
       <hr>
     </div>
-
-    <div class="accordion-header m-5 col">
-      <img src="images/FotoHoja.png" class="img-thumbnail rounded-bottom">
-    </div>
-    <div class="col-md-8 col">
-      <p class="display-2 font-weight-bold text-light">Juan Carlos Neuta Montenegro</p>
-      <p class="display-6 font-weight-bold text-light">24 años, Tecnico en Sistemas, Ingeniero de Sistemas coming
-        soon...</p>
-    </div>
-    <div class=" m-4 col">
-      <img src="images/Logo_de_la_Universidad_del_Cauca.svg">
+    <div class="col-12 col-md-4">
+      <div class="row align-items-center">
+        <div class="col-4 col-md-3 accordion-header mb-3">
+          <img src="images/FotoHoja.png" class="img-thumbnail img-fluid mx-auto d-block rounded-bottom">
+        </div>
+        <div class="col-8 col-md-9">
+          <p class="display-2 font-weight-bold text-light">Juan Carlos Neuta Montenegro</p>
+          <p class="display-6 font-weight-bold text-light">24 años, Tecnico en Sistemas, Ingeniero de Sistemas coming
+            soon...</p>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -248,10 +248,10 @@
   </div>
 
   <!--footer-->
-  <footer class="bg-primary d-flex align-items justify-content-center flex-wrap" style="min-height: 100px;">
+  <footer class="bg-primary d-flex justify-content-center align-items-center flex-wrap" style="min-height: 100px;">
     <p class="fs-5 px-3 pt-3" style="color: #f3f3f3;text-align: center;">Juan Carlos Neuta. &copy; Todos Los Derechos
       Reservados 2023</p>
-    <div>
+    <div class="d-flex align-items-center">
       <a href="https://www.facebook.com/Ian.Neuta.52"><i class="bi bi-facebook "
           style="font-size: 26px; padding: 0 8px;color: #f3f3f3;"></i></a>
       <a href="#"><i class="bi bi-twitter" style="font-size: 26px; padding: 0 8px;color: #f3f3f3;"></i></a>
